@@ -1,4 +1,4 @@
-package com.pal.microservice.directory;
+package com.pal.microservice.directory.controller;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
