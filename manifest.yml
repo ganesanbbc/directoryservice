@@ -1,0 +1,10 @@
+applications:
+- name: directory-service-v1
+  disk_quota: 1G
+  instances: 1
+  memory: 512M
+  routes:
+  - route: directory-service-v1-circumfluent-pneumatology.apps.cumuluslabs.io
+  services:
+  - attendee-mysql
+  stack: cflinuxfs2
