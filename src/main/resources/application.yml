@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/testdb?useSSL=false
+    username: springboot
+    password: workshop
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
